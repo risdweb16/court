@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr" class="uk-notouch">
+	<head>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  			
+  			<title>Letterstressed</title>
+
+<!--jQuery stylesheets and scripts required for UIkit-->
+  			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+			<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+<!--UIkit stylesheet almost flat-->
+			<link rel="stylesheet" type="text/css" href="../../libraries/uikit-2.24.3/css/uikit.almost-flat.min.css">
+			<link rel="stylesheet" type="text/css" href="../../libraries/uikit-2.24.3/css/components/slidenav.almost-flat.min.css">
+			
+<!--UIkit scripts including lightbox, modal and offcanvas-->
+			<script src="../../libraries/uikit-2.24.3/js/uikit.min.js"></script>
+			<script src="../../libraries/uikit-2.24.3/js/core/nav.min.js"></script>
+			<script src="../../libraries/uikit-2.24.3/js/components/accordion.min.js"></script>
+			<script src="../../libraries/uikit-2.24.3/js/core/modal.min.js"></script>
+			<script src="../../libraries/uikit-2.24.3/js/core/offcanvas.min.js"></script>
+			<script src="../../libraries/uikit-2.24.3/js/components/lightbox.min.js"></script>
+			<script src="../../libraries/uikit-2.24.3/js/components/sticky.min.js"></script>
+
+	</head>
+	<body>
+
+<!--NavigationBar-->
+		<nav class="uk-navbar uk-margin-large-bottom">
+            <a class="uk-navbar-brand uk-hidden-small" href="collection-lp.html">LP</a>
+            <ul class="uk-navbar-nav uk-hidden-small">
+                <li class="uk-active">
+                    <a href="collection.html">Gifts</a>
+                </li>
+                <li>
+                    <a href="collection2.html">Purchased</a>
+                </li>
+                <li>
+                    <a href="collection3.html">Inspiration</a>
+                </li>
+            </ul>
+            
+
+	<!--UIkit offcanvas feature-->
+            <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+            <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Letterstressed</div>
+
+            <div id="offcanvas" class="uk-offcanvas">
+    			<div class="uk-offcanvas-bar">
+    				<ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav="{multiple:true}">
+    					<li>
+    						<a href="collection-lp.html">Home</a>
+    					</li>
+    					<li class="uk-nav-divider"></li>
+    					<li class="uk-active">
+    						<a href="collection.html">Gifts</a>
+    					</li>
+    					<li>
+    						<a href="collection2.html">Purchased</a>
+    					</li>
+    					
+    					<li class="uk-parent">
+    						<a href="#">Inspiration</a>
+    						<ul class="uk-sub-nav">
+    							<li><a href="collection3.html">Gaylord Schanilec</a></li>
+    							<li><a href="collection3.html">David Wolske</a></li>
+    						</ul>
+    					</li>
+    				</ul>
+    			</div>
+			</div>
+
+        </nav>
+
+<!--Finally able to get Lightbox working!-->
+<!--Center Container-->
+		<div class="uk-container uk-container-center">
+            <h1>Gifted Prints</h1>
+            <hr></hr>
+
+    <!--Grid - Small, Medium and Large sizes-->
+            <div class="uk-grid uk-grid-width-large-1-5 uk-grid-width-medium-1-3 uk-grid-width-1 " data-uk-grid-margin >
+                
+                <div class="uk-margin-large-bottom uk-slidenav-position uk-slidenav-contrast">
+                    <a href="gifted/IMG_2151.JPG" data-lightbox-type="image" data-uk-lightbox="{group:'group1'}" title="Elpitha Tsoutsounakis">
+                		<img src="gifted/IMG_2149.JPG">
+                    </a>
+                </div>
+
+                <div class="uk-margin-large-bottom">
+                    <a href="gifted/IMG_2153.JPG" data-lightbox-type="image" data-uk-lightbox="{group:'group1'}" title="Alex Pastucha">
+                        <img src="gifted/IMG_2152.jpeg">
+                    </a>
+
+                </div>
+
+                <div class="uk-margin-large-bottom">
+
+                    <a href="gifted/IMG_2172.JPG" data-lightbox-type="image" data-uk-lightbox="{group:'group1'}" title="Alex Pastucha">
+                        <img src="gifted/IMG_2167.JPG" width="400" height="400" alt="400x300 [400x300]" data-src="holder.js/400x300/auto/text:400x300" data-holder-rendered="true">
+                    </a>
+
+                </div>
+                <div class="uk-margin-large-bottom">
+                    <a href="gifted/IMG_2171.JPG" data-lightbox-type="image" data-uk-lightbox="{group:'group1'}" title="Brooke Keene">
+                        <img src="gifted/IMG_2170.JPG" width="400" height="400" alt="600x2000 [400x300]" data-src="holder.js/400x300/auto/text:600x2000" data-holder-rendered="true">
+                    </a>
+                </div>
+
+                <div class="uk-margin-large-bottom">
+                    <a href="gifted/IMG_2174.JPG" data-lightbox-type="image" data-uk-lightbox="{group:'group1'}" title="Author Unknown">
+                        <img src="gifted/IMG_2173.JPG" data-src="holder.js/400x300/auto/text:3000x3000" data-holder-rendered="true">
+                    </a>
+                </div>
+
+                <div class="uk-margin-large-bottom">
+                    <a href="gifted/IMG_2178.JPG" data-lightbox-type="image" data-uk-lightbox="{group:'group1'}" title="Author Unknown">
+                        <img src="gifted/IMG_2176.JPG" data-src="holder.js/400x300/auto/text:3000x3000" data-holder-rendered="true">
+                    </a>
+                </div>
+
+                <div class="uk-margin-large-bottom">
+                    <a href="gifted/IMG_2180.JPG" data-lightbox-type="image" data-uk-lightbox="{group:'group1'}" title="Daniel Stuart">
+                        <img src="gifted/IMG_2179.JPG" data-src="holder.js/400x300/auto/text:3000x3000" data-holder-rendered="true">
+                    </a>
+                </div>
+
+                <div class="uk-margin-large-bottom">
+                    <a href="gifted/IMG_2183.JPG" data-lightbox-type="image" data-uk-lightbox="{group:'group1'}" title="Daniel Stuart">
+                        <img src="gifted/IMG_2182.JPG" data-src="holder.js/400x300/auto/text:3000x3000" data-holder-rendered="true">
+                    </a>
+                </div>
+
+                 <div class="uk-margin-large-bottom">
+                    <a href="gifted/IMG_2189.JPG" data-lightbox-type="image" data-uk-lightbox="{group:'group1'}" title="Author Unknown">
+                        <img src="gifted/IMG_2186.JPG" data-src="holder.js/400x300/auto/text:3000x3000" data-holder-rendered="true">
+                    </a>
+                </div>
+
+                <div class="uk-margin-large-bottom">
+                    <a href="gifted/IMG_2198.JPG" data-lightbox-type="image" data-uk-lightbox="{group:'group1'}" title="Emily Cates">
+                        <img src="gifted/IMG_2195.JPG" data-src="holder.js/400x300/auto/text:3000x3000" data-holder-rendered="true">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+	</body>
+</html>

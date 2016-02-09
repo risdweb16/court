@@ -1,0 +1,27 @@
+h3>a {
+  color: rgb(39,40,34);
+  text-decoration: none;
+}
+
+h3>a:hover {
+  text-decoration: none;
+}
+
+div.uk-panel:hover {
+  background: rgb(1,246,215);
+  border: none;
+}
+
+div.uk-block {
+  background: rgb(39,40,34);
+
+}
+
+div.uk-block:hover {
+  background: rgb(1,246,215);
+
+}
+
+nav  {
+  z-index: 1000;
+}
